@@ -1,0 +1,103 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins, sans-serif;
+}
+
+/* Nav Bar Styling */
+.navbar {
+    box-shadow: 2px 2px 5px rgba(247, 247, 247, 0.575);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.navbar h1 {
+    font-family: "Cinzel Decorative", serif;
+    color: rgb(226, 52, 43);
+}
+
+.navbar ul {
+    list-style: none;   
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(226, 52, 43);
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+    transition: 0.6;
+}
+
+.navbar button {
+    padding: 10px 17px;
+    border: 1px solid rgb(226, 52, 43);
+    color: rgb(226, 52, 43);
+    background-color: #ffffff90;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: rgb(226, 52, 43);
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* Hero Section Styling */
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 200px;
+    align-items: center;
+    gap: 100px;
+}
+
+.image-section svg {
+    width: 600px;
+}
+
+.text-section h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.text-section h1 span {
+    color: rgb(226, 52, 43);
+}
+
+.text-section p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.text-section button {
+    padding: 10px 17px;
+    border: 1px solid rgb(226, 52, 43);
+    color: rgb(226, 52, 43);
+    background-color: #ffffff;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.text-section button:hover {
+    background-color: rgb(226, 52, 43);
+    color: white;
+    transition: 0.5s;
+}
